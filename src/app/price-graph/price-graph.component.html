@@ -1,0 +1,30 @@
+<jqxChart #myChart
+    [width]="getWidth()" [height]="500" [width]="500"
+    [title]="'Live Price Changes'" [enableAxisTextAnimation]="true"
+    [description]="''" [animationDuration]="1000"
+    [showLegend]="true" [enableAnimations]="false" [padding]="padding"
+    [titlePadding]="titlePadding" [source]="data" [xAxis]="xAxis"
+    [valueAxis]="seriesGroups[0].valueAxis" [seriesGroups]="seriesGroups" [colorScheme]="'scheme04'">
+</jqxChart>
+
+<!--<table style="width: 680px">
+  <tbody>
+      <tr>
+          <td style="padding-left: 50px">
+              <p>Select the series type:</p>
+              <jqxDropDownList (onChange)="seriesOnChange($event)"
+                  [width]="200" [height]="25" [selectedIndex]="2"
+                  [dropDownHeight]="100" [source]="seriesList">
+              </jqxDropDownList>
+          </td>
+          <td>
+              <p>Select color scheme:</p>
+              <jqxDropDownList (onChange)="colorsOnChange($event)"
+                  [width]="200" [height]="25" [selectedIndex]="2"
+                  [dropDownHeight]="100" [source]="colorsSchemesList">
+              </jqxDropDownList>
+          </td>
+      </tr>
+  </tbody>
+</table>
+-->
